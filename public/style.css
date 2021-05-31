@@ -2,3 +2,14 @@ body{
 color: red
 }
 
+.greetings{
+
+font-size: 24px;
+
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+}
