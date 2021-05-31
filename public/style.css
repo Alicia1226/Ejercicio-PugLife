@@ -1,0 +1,24 @@
+body{
+    background-color: #888;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+.greetings{
+    display: flex;
+    justify-content: center;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
