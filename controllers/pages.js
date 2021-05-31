@@ -1,8 +1,8 @@
 const pages = {
     home: (req, res) => {
         //res.send('Esto es home')
-        let datos = {nombre:"Victor"}
-        res.status(200).render("home",datos)
+        //let datos = {nombre:"Victor"}
+        res.status(200).render("home")
     },
     location: (req, res) => {
         res.status(200).render('location')
@@ -16,7 +16,8 @@ const pages = {
         res.status(200).render('contact', datos)
         },
     mission: (req, res) => {
-        res.status(200).render('mission')
+        let datos = {nombre:"Víctor", nombra:"Alicia"}
+        res.status(200).render('mission',datos)
             },
 
     }
