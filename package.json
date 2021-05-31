@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio-puglife",
+  "version": "1.0.0",
+  "description": "Ejercicio Pug-Life",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alicia1226/Ejercicio-PugLife.git"
+  },
+  "author": "Alicia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alicia1226/Ejercicio-PugLife/issues"
+  },
+  "homepage": "https://github.com/Alicia1226/Ejercicio-PugLife#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "start": "^5.1.0"
+  }
+}
