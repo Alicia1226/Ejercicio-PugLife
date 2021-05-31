@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Alicia1226/Ejercicio-PugLife#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
   }
 }

@@ -1,18 +1,19 @@
 const pages = {
     home: (req, res) => {
-        //res.send('Esto es home')
+        res.send('Esto es home')
         let datos = {nombre:"Victor"}
-        res.status(200).render("home", datos)
+        //res.status(200).render("home", datos)
     },
     location: (req, res) => {
         res.status(200).send('Esto es location')
         },
     about: (req, res) => {
-            res.send('Esto es about')
+            res.status(200).send('Esto es about')
             },
     contact: (req, res) => {
+        res.status(200).send('Esto es contact')
         let datos = {nombre:"al formulario de contacto"}
-        res.status(200).render('home', datos)
+        //res.status(200).render('home', datos)
         },
     mission: (req, res) => {
         res.status(200).send('Esto es mission')
