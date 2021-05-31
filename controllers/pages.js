@@ -1,9 +1,9 @@
 const pages = {
     home:(req, res) => {
         // res.status(200).sendFile(path.join(__dirname, 'public/index.html'));
-        res.send('Es la home!')
+        // res.send('Es la home!')
         let datos = {nombre:"Alicia"}
-        // res.status(200).render('home',datos);
+        res.status(200).render('home',datos);
     },
     
     about:(req, res) => {
