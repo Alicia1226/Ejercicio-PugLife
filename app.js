@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const router= require('./controllers/index')
+const port = 3001
 
 
-
-
+app.use('/',router);
 
 
 
